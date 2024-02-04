@@ -23,6 +23,7 @@ struct ContentView: View {
                 .padding(.bottom, 50)
 
             Text("Hello, world!")
+                .offset(z: 100)
 
             Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
                 .toggleStyle(.button)
